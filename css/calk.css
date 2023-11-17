@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(45deg, #9890e3, #b1f4cf);
+    text-align: center;
+    background-size: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+h1 {
+    padding-top: 200px;
+    text-align: center;
+    color: rgb(136, 255, 0);
+    text-shadow: black 3px 3px 3px;
+    margin-bottom: 100px;
+}
