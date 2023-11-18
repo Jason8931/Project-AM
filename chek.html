@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-AM</title>
+    <title>Список дел</title>
+    <link rel="stylesheet" href="css/chek.css">
     <link rel="stylesheet" href="css/meny.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>Проекты <br> Муковнина Александра</h1>
 
+
+</head>
+
+<body>
+    <h1>Список дел</h1>
+    <input type="text" id="task" placeholder="Добавить новое дело">
+    <button id="add-button">Добавить</button>
+    <ul id="todo-list">
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/chek.js"></script>
     <div class="meny">
         <ul class="meny_list">
             <li class="meny_item"><a href="Index.html" class="link">Главная</a></li>
@@ -19,8 +28,6 @@
             <li class="meny_item"><a href="test.html" class="link">Тест</a></li>
             <li class="meny_item"><a href="chek.html" class="link">Чек лист</a></li>
 
-        </ul>
-    </div>
-    <h3>пожалуйста нажимайте на саму ссылку кнопки, спасибо</h3>
 </body>
+
 </html>
